@@ -13,6 +13,7 @@ module.exports = {
       'keyframes': {
         'gradient-y': {
           '0%, 100%': {
+            'background-image': 'linear-gradient(0deg, black, blue, darkgreen)',
             'background-size': '400% 400%',
             'background-position': 'center top'
           },
@@ -23,6 +24,7 @@ module.exports = {
         },
         'gradient-x': {
           '0%, 100%': {
+            'background-image': 'linear-gradient(90deg, black, blue, darkgreen)',
             'background-size': '200% 200%',
             'background-position': 'left bottom'
           },
@@ -33,6 +35,7 @@ module.exports = {
         },
         'gradient-xy': {
           '0%, 100%': {
+            'background-image': 'linear-gradient(-45deg, black, blue, darkgreen)',
             'background-size': '400% 400%',
             'background-position': 'left center'
           },
@@ -41,10 +44,8 @@ module.exports = {
             'background-position': 'right center'
           }
         },
-
       }
     }
   },
   plugins: [],
 }
-
